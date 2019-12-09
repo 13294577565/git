@@ -10,3 +10,7 @@ def aa(request):
 
 def index(request):
     return render(request,'index.html')
+
+
+def zy(request):
+    return render(request,'zyy.html')
