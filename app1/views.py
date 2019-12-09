@@ -14,3 +14,6 @@ def index(request):
 
 def zy(request):
     return render(request,'zyy.html')
+
+def hsj(request):
+    return render(request,'hsj.html')
