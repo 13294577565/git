@@ -7,3 +7,6 @@ def login(request):
 
 def aa(request):
     return render(request,'aa.html')
+
+def index(request):
+    return render(request,'index.html')
